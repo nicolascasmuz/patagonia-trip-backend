@@ -18,7 +18,7 @@ async function CreateTraveler(body) {
       from: "onboarding@resend.dev",
       to: "nicolascasmuz@gmail.com",
       subject: `Bienvenido/a ${body.name}`,
-      html: `<p>Gracias por registrarte en Patagonia Trip, a partir de ahora recibirás info sobre:</p>
+      html: `<p>Gracias por registrarte en Patagoning, a partir de ahora recibirás info sobre:</p>
              <h3>- Actualizaciones en nuestra plataforma.</h3>
              <h3>- Nuevos alojamientos y servicios.</h3>
              <h3>- Habilitación de nuevas rutas.</h3>

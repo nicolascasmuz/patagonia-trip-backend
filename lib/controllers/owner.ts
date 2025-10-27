@@ -31,7 +31,7 @@ async function CreateOwner(body) {
       from: "onboarding@resend.dev",
       to: "nicolascasmuz@gmail.com",
       subject: `Bienvenido/a ${body.business}`,
-      html: `<p>Gracias por registrarte en Patagonia Trip</p>
+      html: `<p>Gracias por registrarte en Patagoning</p>
              <h3>¡Ya publicamos tu negocio!</h3>
              <h3>A partir de ahora viajeros de todo el mundo podrán verlo a través de nuestro sitio</h3>`,
     };
